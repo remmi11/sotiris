@@ -1,0 +1,7 @@
+{
+    "maxzoom": "6", 
+    "minzoom": "0", 
+    "json": "{\"vector_layers\":[{\"id\":\"WPI\",\"description\":\"Ports\",\"fields\":{\"PORT_NAME\":\"String\",\"HARBORSIZE\":\"String\",\"MAG\":\"Number\"}}]}", 
+    "center": "-77.6953,39.6734,4", 
+    "format": "pbf"
+}

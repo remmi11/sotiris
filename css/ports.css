@@ -1,0 +1,34 @@
+#WPI[zoom >= 6] {
+  text-name: [PORT_NAME];
+  text-face-name: 'Clan Offc Pro Medium';
+  text-fill: #df153f;
+  [MAG=1]{text-size:4;}
+  [MAG=2]{text-size:6;}
+  [MAG=3]{text-size:8;}
+  [MAG=4]{text-size:10;}
+  
+  [zoom >=7]{
+    [MAG=1]{text-size:6;}
+    [MAG=2]{text-size:8;}
+    [MAG=3]{text-size:10;}
+    [MAG=4]{text-size:12;}
+  }
+  [zoom >= 8]{
+    [MAG=1]{text-size:8;}
+    [MAG=2]{text-size:10;}
+    [MAG=3]{text-size:12;}
+    [MAG=4]{text-size:14;}
+  }
+    [zoom >= 9]{
+    [MAG=1]{text-size:10;}
+    [MAG=2]{text-size:12;}
+    [MAG=3]{text-size:14;}
+    [MAG=4]{text-size:16;}
+  }
+    [zoom >= 10]{
+    [MAG=1]{text-size:12;}
+    [MAG=2]{text-size:14;}
+    [MAG=3]{text-size:16;}
+    [MAG=4]{text-size:18;}
+  }
+}

@@ -19,8 +19,8 @@
 
 <div id='map'></div>
 <script>
-mapboxgl.accessToken = 'pk.eyJ1Ijoid3RnZW9ncmFwaGVyIiwiYSI6IlR2a2VuQWsifQ.U3TabizicU3kZ4LvkHyb0g';
-//mapboxgl.accessToken = 'NOT-REQUIRED-WITH-YOUR-VECTOR-TILES-DATA';
+//mapboxgl.accessToken = 'pk.eyJ1Ijoid3RnZW9ncmFwaGVyIiwiYSI6IlR2a2VuQWsifQ.U3TabizicU3kZ4LvkHyb0g';
+mapboxgl.accessToken = 'NOT-REQUIRED-WITH-YOUR-VECTOR-TILES-DATA';
 
 var style = {
     "version": 8,
@@ -104,8 +104,8 @@ var style = {
     "pitch": 0,
     "sources": {
         "composite": {
-            "url": "mapbox://mapbox.mapbox-terrain-v2,mapbox.mapbox-streets-v7,wtgeographer.9j8blror",
-            //"tiles": [location.origin+location.pathname+"countries/{z}/{x}/{y}.pbf"],
+            //"url": "mapbox://mapbox.mapbox-terrain-v2,mapbox.mapbox-streets-v7,wtgeographer.9j8blror",
+            "tiles": [location.origin+location.pathname+"wpi/{z}/{x}/{y}.pbf"],
 			"type": "vector"
 		}
 		
